@@ -10,4 +10,5 @@ public class TripCost {
         }
         return amount - discount;
     }
+
 }
