@@ -12,7 +12,7 @@ public class TripCost {
         setKilometerTaxInRuble(kilometerTaxInRuble);
         setMinAmountForDiscount(minAmountForDiscount);
         setMaxDiscountInRuble(maxDiscountInRuble);
- //       setDiscountInPercent(discountInPercent);
+        setDiscountInPercent(discountInPercent);
     }
 
     public void setBoardingTaxInRuble(int boardingTaxInRuble) {
