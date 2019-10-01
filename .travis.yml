@@ -1,8 +1,5 @@
 language: java
 jdk: oraclejdk11
-env:
-  global:
-    - CODECOV_TOKEN=bdf9bd45-4f2f-4907-96df-c0374013df76
 after_success:
   - bash <(curl -s https://codcov.io/bash)
 script: mvn -e verify
